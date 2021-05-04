@@ -129,6 +129,8 @@ namespace musictool
 				sw.WriteLine("\tCPU 68000");
 				sw.WriteLine("\tpadding off");
 				sw.WriteLine("SonicDriverVer = 5");
+				sw.WriteLine("SourceDriver set 3");
+				sw.WriteLine("SourceSMPS2ASM set 0");
 				sw.WriteLine("\tinclude \"sonic3k.macros.asm\"");
 				sw.WriteLine("\tinclude \"Sound/_smps2asm_inc.asm\"");
 				sw.WriteLine("\tinclude \"Sound/UniBank.asm\"");
